@@ -45,8 +45,8 @@ export default {
                items: await basicFetch(`/discover/movie?with_genres=27&languege=pt-BR&api_key=${API_KEY}`)
            },
            {
-               slug: 'Romance',
-               title: 'romance',
+               slug: 'romance',
+               title: 'Romance',
                items: await basicFetch(`/discover/movie?with_genres=10749&languege=pt-BR&api_key=${API_KEY}`)
            },
            {
