@@ -9,9 +9,14 @@ header{
    justify-content: space-between;
    align-items: center;
    padding: 0 30px;
+   background: transparent;
+   transition: all ease 0.5s ;
+}
+header.black{
+    background-color: #000;
 }
 .header--logo{
-    height:25px ;
+    height:65px ;
 }
 .header--logo img{
     height: 100%;
