@@ -60,7 +60,12 @@ export default () => {
      <MovieRow key={key} title={item.title} items={item.items}/>
      ))}
     </section>
+     
+     <footer> 
+       Feito com <span role='img' aria-label='coração'>❤️</span >por Allefy <br/>
+       Dados pegos no site Themoviedb.com <br/>
 
+     </footer>
       
     </div>
   )
